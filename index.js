@@ -17,7 +17,7 @@ let myServer = myHttp.createServer(
                            {"Context-Type": "text/plain"} );
 
     // end() returns some data and cxloses the response (sends it)
-    myResponse.end( myText+ "\n");
+    myResponse.end( myText+ " \n");
   }
 );
 
